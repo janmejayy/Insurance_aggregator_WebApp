@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Data Aggregator</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Hero Section -->
+<header class="hero">
+    <video autoplay muted loop class="hero-video">
+        <source src="/static/videos/insurancebackground.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>Transforming Insurance Data</h1>
+            <p>Streamline your reporting and insights with a unified platform for all brokers.</p>
+            <a href="#features" class="cta-button">Discover Features</a>
+        </div>
+    </div>
+</header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <h2>Generate Reports</h2>
+        <p>Search by broker name or ID to view detailed policy reports and insights.</p>
+        <form action="/report" method="POST" class="search-form">
+            <label for="broker_name">Broker Name or ID:</label>
+            <input type="text" id="broker_name" name="broker_name" placeholder="Enter broker name or ID">
+            <button type="submit" class="search-button">Generate Report</button>
+        </form>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <img src="/static/icons/data.png" alt="Data Aggregation">
+                <h3>Data Aggregation</h3>
+                <p>Combine data from multiple brokers seamlessly.</p>
+            </div>
+            <div class="feature-card">
+                <img src="/static/icons/insight.png" alt="Insights">
+                <h3>Actionable Insights</h3>
+                <p>Generate detailed reports to guide decision-making.</p>
+            </div>
+            <div class="feature-card">
+                <img src="/static/icons/secure.png" alt="Secure Data">
+                <h3>Secure Data</h3>
+                <p>State-of-the-art security ensures your data is safe.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p>"This platform has transformed the way we manage broker data."</p>
+                <span>- Peter Scott, CEO</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"The insights provided have helped us make data-driven decisions."</p>
+                <span>- Janmejay Yadav, Data Analyst</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Insurance Data Aggregator. All rights reserved.</p>
+    </footer>
+</body>
+</html>
