@@ -95,6 +95,9 @@ pytest
 ### 3. View Test Results
 Once pytest runs, it will display the results of all unit tests, including pass/fail statuses.
 
+![image](https://github.com/user-attachments/assets/2c6f9528-74df-4e43-ad3f-b2bbc29b3862)
+
+
 ## File Structure
 Here is the organized file structure of the project:
 
