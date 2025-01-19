@@ -78,6 +78,22 @@ The application will run at `http://127.0.0.1:5000`.
 Open a browser and navigate to `http://127.0.0.1:5000`. Use the filters and explore the reports generated.
 
 ---
+## 7. Running Tests with Pytest
+
+### 1. Install Pytest
+Make sure pytest is installed in your environment:
+```bash
+pip install pytest
+```
+
+### 2. Run All Tests
+To verify the functionality of the project, run the following command from the project directory:
+```bash
+pytest
+```
+
+### 3. View Test Results
+Once pytest runs, it will display the results of all unit tests, including pass/fail statuses.
 
 ## File Structure
 Here is the organized file structure of the project:
