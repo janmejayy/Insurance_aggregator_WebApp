@@ -36,7 +36,7 @@ The report page displays aggregated data, actionable metrics, and visualized ins
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-repo-url.git
+git clone https://github.com/Insurance_aggregator_WebApp.git
 
 
 ###  Navigate to the Project Directory**
